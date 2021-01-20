@@ -66,6 +66,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
         super.onCreate(savedInstanceState)
         // TODO (01) Add an info level log statement here
 
+
         // Use Data Binding to get reference to the views
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
